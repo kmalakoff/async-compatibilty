@@ -1,5 +1,5 @@
 {
-  "name": "async-compat-benchmark",
+  "name": "async-compat-performance",
   "version": "0.0.0",
   "private": true,
   "description": "Tests",
@@ -17,5 +17,8 @@
   "dependencies": {
     "async-compat-1.3.0": "npm:async-compatibilty@1.4.1",
     "benchmark-suite": "^0.1.6"
+  },
+  "engines": {
+    "node": "lts"
   }
 }
